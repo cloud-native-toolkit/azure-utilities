@@ -48,6 +48,26 @@ For this release, we are using Azure CLI's default authentication method for log
     ```bash
    ./listresourcegroup.sh
    ```
+    ```bash
+   ./listallresources-location.sh <Location name such as eastus>
+   ```
+   
+   ```bash
+   ./listallresources-tag.sh <tag name such as default> 
+   ```
+   
+   ```bash
+   ./listallresources-resourcegroup.sh <Resource group name such as bala-rg>
+   ```
+
+   ```bash
+   ./listalltags-subscription.sh <Subscription id for account>
+   ```
+
+   ```bash
+   ./listconsumptionusage-daterange.sh startdate enddate billingperiodname 
+   example - ./listconsumptionusage-daterange.sh 2022-06-26 2022-06-27 June
+   ```
 
    Delete all resources within ResourceGroup (**Do NOT run this unless you want to clean ALL**):
 

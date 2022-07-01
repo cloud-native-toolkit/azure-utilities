@@ -21,8 +21,9 @@ echo "================================="
 
 startdate=$1
 enddate=$2
+billing=$3
 
-az consumption usage list --billing-period-name “June” --start-date 2022-06-22 --end-date 2022-06-27 -o table
+az consumption usage list --billing-period-name $billing --start-date $1 --end-date $2 -o table
 
 #az billing subscription show --account-name 887ef35a-df6f-4a95-b179-ee1b5965e7d7 
 #--profile-name "IBM Ecosystem Partner Engineering"
