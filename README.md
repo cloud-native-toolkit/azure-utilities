@@ -79,7 +79,7 @@ For this release, we are using Azure CLI's default authentication method for log
    
    ##### Delete Resource Group ( including all resources in resource group  )
 
-   ⚠️⚠️⚠️⚠️**Do NOT run this unless you want to clean ALL - No Recover Option**:
+   ⚠️⚠️⚠️⚠️**Do NOT run this - All resources gone in Azure Cloud**
 
    ```bash
    ./deleteresourcegroup {ResourceGroup}
