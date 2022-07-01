@@ -45,10 +45,11 @@ For this release, we are using Azure CLI's default authentication method for log
    ./listaccount.sh
    ```
 
-    ```bash
+   ```bash
    ./listresourcegroup.sh
    ```
-    ```bash
+
+   ```bash
    ./listallresources-location.sh <Location name such as eastus>
    ```
    
