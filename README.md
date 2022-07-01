@@ -39,7 +39,7 @@ For this release, we are using Azure CLI's default authentication method for log
    ```
 
 
-2.CLI Usage.
+2.CLI Usage with parameters
 
    ```bash
    ./listaccount.sh
