@@ -28,7 +28,7 @@ For this release, we are using Azure CLI's default authentication method for log
 | Retrieve    | [List All Resource based on Resource Group ](./listallresources-resourcegroup.sh)    | List Azure resources based on specific resource group| 2 Mins   |
 | Retrieve    | [List the entire set of tags for a subscription](./listalltags-subscription.sh)    | List Azure resources tags based on a subscription| 2 Mins   |
 | Retrieve    | [List the consumption usage for range between start and end date](./listconsumptionusage-daterange.sh)    | List the details of Azure resource consumption within a billing period| 2 Mins   |
-| Delete    | [Delete Resource Group](./deleteresourcegroup.sh) |⚠️⚠️⚠️⚠️ Delete resource group might contain storage, virtual machines, apps, dashboards, services, or almost anything you deal with in Azure (**Do NOT run this unless you want to clean ALL** ) | 5 Mins   |
+| Delete    | [Delete Resource Group](./deleteresourcegroup.sh) |⚠️⚠️⚠️⚠️ Delete resource group might contain storage, virtual machines, apps, dashboards, services, or almost anything you deal with in Azure | 5 Mins   |
 
 ## Using the CLI
 
@@ -41,8 +41,6 @@ For this release, we are using Azure CLI's default authentication method for log
 
 2. Run the CLI.
 
-   Perform a dry run:
-
    ```bash
    ./listaccount.sh
    ```
@@ -51,7 +49,7 @@ For this release, we are using Azure CLI's default authentication method for log
    ./listresourcegroup.sh
    ```
 
-   Delete all resources within ResourceGroup ():
+   Delete all resources within ResourceGroup (**Do NOT run this unless you want to clean ALL**):
 
    ```bash
    ./deleteresourcegroup {ResourceGroup}
@@ -59,7 +57,10 @@ For this release, we are using Azure CLI's default authentication method for log
 ## TODO
 
 1. The project needs support for deleting the following types of resources:
-2. The project needs support for deleting with skipping certain resoruces.
+   - Tag
+   - Location
+   - Tesourcegroup
+2. The project needs support for deleting with skipping certain resources.
 
 ## References
 - Manage Resource Group : https://docs.microsoft.com/en-us/azure/azure-resource-manager/management/manage-resource-groups-cli
