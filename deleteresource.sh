@@ -92,7 +92,7 @@ echo "Resource group: Processing to delete "
 
 if [ $(az group exists --name $resourceGroup) = true ]; then 
    echo - The $resourceGroup resource group exist
-   az group delete --name $resourceGroup -y # --no-wait
+   #az group delete --name $resourceGroup -y # --no-wait
 else
    echo - The $resourceGroup resource group does not exist
 fi

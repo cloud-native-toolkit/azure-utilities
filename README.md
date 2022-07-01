@@ -23,7 +23,10 @@ For this release, we are using Azure CLI's default authentication method for log
 |--------|----------------------------------------------------------------------------|----------------------|----------|
 | Delete    | [Delete Resource Group](./deleteresourcegroup.sh) | Delete resource group might contain storage, virtual machines, apps, dashboards, services, or almost anything you deal with in Azure. | 2 Mins   |
 | Retrieve    | [List Account](./listaccount.sh)    | Retrieve Account Details       | 2 Mins   |
+| Retrieve    | [List All Resource Group ](./listallresourcegroup.sh)    | List ALL resource group might contain storage, virtual machines, apps, dashboards, services, or almost anything you deal with in Azure.       | 2 Mins   |
+| Retrieve    | [List All Resource based on location ](./listallresources-location.sh)    | List Azure resources
 
+       | 2 Mins   |
 
 ## Using the CLI
 
