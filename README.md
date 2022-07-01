@@ -32,51 +32,59 @@ For this release, we are using Azure CLI's default authentication method for log
 
 ## Using the CLI
 
-1. Clone the repo.
+### 1. Clone the repo.
 
    ```bash
    git clone https://github.com/cloud-native-toolkit/azure-utilities.git
    ```
 
 
-2.CLI Usage with parameters
+### 2.CLI Usage with parameters
 
-   #### List Accounts
+   ##### List Accounts
    ```bash
    ./listaccount.sh
    ```
 
+   ##### List all resource group in Azure Subscription
    ```bash
    ./listresourcegroup.sh
    ```
 
+   ##### List all resources based on particular location
    ```bash
    ./listallresources-location.sh <Location name such as eastus>
    ```
    
+   ##### List all resources based on tag
    ```bash
    ./listallresources-tag.sh <tag name such as default> 
    ```
    
+   ##### List all resources based on particular resource group
    ```bash
    ./listallresources-resourcegroup.sh <Resource group name such as bala-rg>
    ```
 
+   ##### List all tags based on subscription id
    ```bash
    ./listalltags-subscription.sh <Subscription id for account>
    ```
 
+   ##### List consumption usage based on the start date and end date
    ```bash
    ./listconsumptionusage-daterange.sh <startdate enddate billingperiodname>
-  
    ```
     **Example** - ./listconsumptionusage-daterange.sh 2022-06-26 2022-06-27 June
+   
+   ##### Delete Resource Group ( including all resources in resource group  )
 
    ⚠️⚠️⚠️⚠️**Do NOT run this unless you want to clean ALL - No Recover Option**:
 
    ```bash
    ./deleteresourcegroup {ResourceGroup}
    ```
+   
 ## TODO
 
 1. The project needs support for deleting the following types of resources:
