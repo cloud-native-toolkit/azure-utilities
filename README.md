@@ -19,7 +19,7 @@ For this release, we are using Azure CLI's default authentication method for log
 
 ## CLI options
 
-Name                                                                       | Description          | Run Time |
+| Name                                                                       | Description          | Run Time |
 |--------|----------------------------------------------------------------------------|----------------------|----------|
  [Delete Resource Group](./) | A resource group might contain storage, virtual machines, apps, dashboards, services, or almost anything you deal with in Azure. | 1 Mins   |
  [List Account](./p)    | Deploy DB2 OLTP      | 1 Mins   |
