@@ -53,31 +53,31 @@ For this release, we are using Azure CLI's default authentication method for log
 
    ##### List all resources based on particular location
    ```bash
-   ./listallresources-location.sh <Location name such as eastus>
+   ./listallresources-location.sh {Location name such as eastus}
    ```
    
    ##### List all resources based on tag
    ```bash
-   ./listallresources-tag.sh <tag name such as default> 
+   ./listallresources-tag.sh {tag name such as default}
    ```
    
    ##### List all resources based on particular resource group
    ```bash
-   ./listallresources-resourcegroup.sh <Resource group name such as bala-rg>
+   ./listallresources-resourcegroup.sh {Resource group name such as bala-rg}
    ```
 
    ##### List all tags based on subscription id
    ```bash
-   ./listalltags-subscription.sh <Subscription id for account>
+   ./listalltags-subscription.sh {Subscription id for account}
    ```
 
    ##### List consumption usage based on the start date and end date
    ```bash
-   ./listconsumptionusage-daterange.sh <startdate enddate billingperiodname>
+   ./listconsumptionusage-daterange.sh {startdate enddate billingperiodname}
    ```
     **Example** - ./listconsumptionusage-daterange.sh 2022-06-26 2022-06-27 June
    
-   ##### Delete Resource Group ( including all resources in resource group  )
+   ##### Delete Resource Group (including all resources in resource group)
 
    ⚠️⚠️⚠️⚠️**Do NOT run this - All resources gone in Azure Cloud**
 
