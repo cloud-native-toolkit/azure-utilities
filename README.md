@@ -35,7 +35,7 @@ For this release, we are using Azure CLI's default authentication method for log
 1. Clone the repo.
 
    ```bash
-   git clone
+   git clone https://github.com/cloud-native-toolkit/azure-utilities.git
    ```
 
 
