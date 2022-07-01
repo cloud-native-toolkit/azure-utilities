@@ -5,7 +5,7 @@ Utilities requried for retrieving Azure cloud billing, cost as well as scripts f
 
 ## Caution!
 
-Be aware that *Azure Cloud Nuke* is a very destructive tool, be very careful while using it. Otherwise you might delete production data. **Do NOT run this application on an Azure Cloud account where you cannot afford to lose all resources.**
+Be aware that *DeleteResourceGroup.sh* is a very destructive tool, be very careful while using it. Otherwise you might delete production data. **Do NOT run this application on an Azure Cloud account where you cannot afford to lose all resources.**
 
 ## Install CLI 
 
