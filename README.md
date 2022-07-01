@@ -69,7 +69,7 @@ For this release, we are using Azure CLI's default authentication method for log
    **Example** - ./listconsumptionusage-daterange.sh 2022-06-26 2022-06-27 June
    ```
 
-   Delete all resources within ResourceGroup (**Do NOT run this unless you want to clean ALL**):
+   ⚠️⚠️⚠️⚠️Delete all resources within ResourceGroup (**Do NOT run this unless you want to clean ALL - No Recover Option**):
 
    ```bash
    ./deleteresourcegroup {ResourceGroup}
