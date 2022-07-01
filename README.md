@@ -21,7 +21,6 @@ For this release, we are using Azure CLI's default authentication method for log
 
 | Category | Name                                                                       | Description          | Run Time |
 |--------|----------------------------------------------------------------------------|----------------------|----------|
-| Delete    | [Delete Resource Group](./deleteresourcegroup.sh) | Delete resource group might contain storage, virtual machines, apps, dashboards, services, or almost anything you deal with in Azure. | 2 Mins   |
 | Retrieve    | [List Account](./listaccount.sh)    | Retrieve Account Details       | 2 Mins   |
 | Retrieve    | [List All Resource Group ](./listallresourcegroup.sh)    | List ALL resource group might contain storage, virtual machines, apps, dashboards, services, or almost anything you deal with in Azure.       | 2 Mins   |
 | Retrieve    | [List All Resource based on location ](./listallresources-location.sh)    | List Azure resources based on location| 2 Mins   |
@@ -29,6 +28,7 @@ For this release, we are using Azure CLI's default authentication method for log
 | Retrieve    | [List All Resource based on Resource Group ](./listallresources-resourcegroup.sh)    | List Azure resources based on specific resource group| 2 Mins   |
 | Retrieve    | [List the entire set of tags for a subscription](./listalltags-subscription.sh)    | List Azure resources tags based on a subscription| 2 Mins   |
 | Retrieve    | [List the consumption usage for range between start and end date](./listconsumptionusage-daterange.sh)    | List the details of Azure resource consumption within a billing period| 2 Mins   |
+| Delete    | [Delete Resource Group](./deleteresourcegroup.sh) | Delete resource group might contain storage, virtual machines, apps, dashboards, services, or almost anything you deal with in Azure. | 2 Mins   |
 
 ## Using the CLI
 
