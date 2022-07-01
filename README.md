@@ -28,7 +28,7 @@ For this release, we are using Azure CLI's default authentication method for log
 | Retrieve    | [List All Resource based on Resource Group ](./listallresources-resourcegroup.sh)    | List Azure resources based on specific resource group| 2 Mins   |
 | Retrieve    | [List the entire set of tags for a subscription](./listalltags-subscription.sh)    | List Azure resources tags based on a subscription| 2 Mins   |
 | Retrieve    | [List the consumption usage for range between start and end date](./listconsumptionusage-daterange.sh)    | List the details of Azure resource consumption within a billing period| 2 Mins   |
-| Delete    | [Delete Resource Group](./deleteresourcegroup.sh) |⚠️⚠️⚠️⚠️ Delete resource group might contain storage, virtual machines, apps, dashboards, services, or almost anything you deal with in Azure | 10-30 Mins (Depends on total number of resources)  |
+| Delete    | [Delete Resource Group](./deleteresourcegroup.sh) |⚠️⚠️⚠️⚠️ Delete resource group will remove storage, virtual machines, apps, dashboards, services, or almost anything you deal with in Azure | 10-30 Mins (Depends on total number of resources)  |
 
 ## Using the CLI
 
