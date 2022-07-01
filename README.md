@@ -1,7 +1,7 @@
 # Azure-utilities
 Utilities requried for retrieving Azure cloud billing, cost as well as scripts for cleaning up resources such as storage, virtual machines, apps, dashboards, services, or almost anything you deal with in Azure.
 
-![Azure Cloud CLI](images/Azure-CLI-Azure%20-%20CLI.jpg)
+![Azure Cloud CLI](images/Azure-CLI-Azure.jpg)
 
 ## Caution!
 
