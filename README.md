@@ -87,12 +87,13 @@ For this release, we are using Azure CLI's default authentication method for log
    
 ## TODO
 
-1. The project needs support for deleting the following types of resources:
+1. Need to use service principal instead of user with MFA
+2. The project needs support for deleting the following types of resources:
    - Tag
    - Location
    - Tesourcegroup
-2. The project needs support for deleting with skipping certain resources.
-3. The project needs support for retrieving costmanagement, billing & invoices.
+3. The project needs support for deleting with skipping certain resources.
+4. The project needs support for retrieving costmanagement, billing & invoices.
 
 ## References
 - [Manage Resource Group](https://docs.microsoft.com/en-us/azure/azure-resource-manager/management/manage-resource-groups-cli)
