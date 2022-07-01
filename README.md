@@ -19,10 +19,10 @@ For this release, we are using Azure CLI's default authentication method for log
 
 ## CLI options
 
-| Name                                                                       | Description          | Run Time |
+| BOM ID | Name                                                                       | Description          | Run Time |
 |--------|----------------------------------------------------------------------------|----------------------|----------|
- [Delete Resource Group](./) | A resource group might contain storage, virtual machines, apps, dashboards, services, or almost anything you deal with in Azure. | 1 Mins   |
- [List Account](./p)    | Deploy DB2 OLTP      | 1 Mins   |
+| 315    | [315 - Cloud Pak for Data - DB2 Warehouse](./315-cloud-pak-for-data-db2wh) | Deploy DB2 Warehouse | 15 Mins   |
+| 320    | [315 - Cloud Pak for Data - DB2 OLTP](./320-cloud-pak-for-data-db2oltp)    | Deploy DB2 OLTP      | 15 Mins   |
 
 
 ## Using the CLI
