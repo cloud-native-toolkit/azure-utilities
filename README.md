@@ -86,6 +86,6 @@ For this release, we are using Azure CLI's default authentication method for log
 3. The project needs support for retrieving costmanagement, billing & invoices.
 
 ## References
-- Manage Resource Group : https://docs.microsoft.com/en-us/azure/azure-resource-manager/management/manage-resource-groups-cli
-- Manage Resources : https://docs.microsoft.com/en-us/azure/azure-resource-manager/management/manage-resources-cli
-- Billing + Cost Management : https://docs.microsoft.com/en-us/cli/azure/service-page/azure%20cost%20management%20+%20billing?view=azure-cli-latest
+- [Manage Resource Group](https://docs.microsoft.com/en-us/azure/azure-resource-manager/management/manage-resource-groups-cli)
+- [Manage Resources](https://docs.microsoft.com/en-us/azure/azure-resource-manager/management/manage-resources-cli)
+- [Billing + Cost Management](https://docs.microsoft.com/en-us/cli/azure/service-page/azure%20cost%20management%20+%20billing?view=azure-cli-latest)
