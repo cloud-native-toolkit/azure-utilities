@@ -14,14 +14,16 @@
 #A web browser has been opened at https://login.microsoftonline.com/organizations/oauth2/v2.0/authorize. Please continue the login in the web browser. If no web browser is available or if the web browser fails to open, use device code flow with `az login --use-device-code`
 az login 
 
-sub-id=$1
+subid=$1
+
+echo $subid
 
 # Tags List
 echo "================================="
 echo "List all Tags in Subscription: "
 echo "================================="
 
-az tag list --resource-id /subscriptions/c35b3277-7ef2-4013-b5d3-8e3cfca81c12 --output table
+az tag list --resource-id /subscriptions/$subid --output table
 
 echo "================================="
 

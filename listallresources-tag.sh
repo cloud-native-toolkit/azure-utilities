@@ -15,6 +15,7 @@
 az login 
 
 tag=$1
+echo $tag
 
 # List all resources by tag
 echo "================================="

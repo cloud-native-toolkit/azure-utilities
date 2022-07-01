@@ -19,7 +19,10 @@ echo "List the Consumption Usage for range "
 echo "================================="
 #az costmanagement export show --name "EcosystemExport" --scope "subscriptions/c35b3277-7ef2-4013-b5d3-8e3cfca81c12"
 
-az consumption usage list --billing-period-name "June" --start-date 2022/06/21 --end-date 2022/06/27 
+startdate=$1
+enddate=$2
+
+az consumption usage list --billing-period-name “June” --start-date 2022-06-22 --end-date 2022-06-27 -o table
 
 #az billing subscription show --account-name 887ef35a-df6f-4a95-b179-ee1b5965e7d7 
 #--profile-name "IBM Ecosystem Partner Engineering"
